@@ -1,0 +1,149 @@
+*
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-image: url(../img/fondounad.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#contenido
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+header
+{
+	width: 1000px;
+	height: 190px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+nav
+{
+width: 1000px;
+height: 85px;
+background-image: url(../img/nav.jpg);
+border-radius: 10px;
+margin-top: 10px;
+}
+ul li
+{
+	display: inline-block;
+	margin: 2em 0em;
+}
+ul a
+{
+	background: #006680;
+	border: 0.5em solid #006680;
+	margin-left: 3em;
+}
+li a
+{
+	font-family: 'Libre Franklin', sans-serif;
+	color:#FFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px;
+	font-size: 20px;
+	transition: all 500ms ease;
+
+}
+li a:hover
+{
+	color: #000000;
+
+}
+section
+{
+	width: 694px;
+	background-image: url(../img/section.jpg);
+	height: 609px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+aside
+{
+
+	width: 283px;
+	background-image: url(../img/aside.jpg);
+	height: 609px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 9px;
+}
+aside img
+{
+	padding: 14px;
+}
+ul a:hover
+{
+	background: #F2B80D;
+	border-radius: 10px;
+	border: 0.5em solid #F2B80D;
+
+}
+h1
+{
+padding: 20px;
+font-family: 'Libre Franklin', sans-serif;
+color: #000;
+font-size: 20px;
+text-align: center; 
+}
+figure
+{
+	padding: 30px;
+}
+
+article img{
+	display: block;
+	margin-left: auto;
+      margin-right: auto;
+}
+p
+{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 20px;
+	text-align: justify;
+}
+h2
+{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	margin-left: 90px;
+	text-decoration: none;
+	padding: 25px
+}
+footer a
+{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #006680;
+}
+footer
+{
+width: 1000px;
+height: 84px;
+background: url(../img/footer.jpg);
+float: left;
+margin-top: 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+footer a:hover
+{
+  color: #FF5900;
+}
